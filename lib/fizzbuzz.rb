@@ -10,14 +10,18 @@ def fizzbuzz(number)
 	end
 end
 
+def divby(number,divisor)
+	number % divisor == 0
+end
+
 def divbyfifteen (number)
-	number % 15 == 0
+	divby(number,15)
 end
 
 def divbyfive(number)
-	number % 5 == 0
+	divby(number,5)
 end
 
 def divbythree(number)
-	number % 3 == 0
+	divby(number,3)
 end
