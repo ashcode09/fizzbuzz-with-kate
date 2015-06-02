@@ -6,4 +6,8 @@ describe "Fizzbuzz" do
 		expect(fizzbuzz(9)).to eq 'fizz!'
 	end
 
+	it 'to return "buzz!" when given 5 as argument' do
+		expect(fizzbuzz(5)).to eq 'buzz!'
+	end
+
 end
